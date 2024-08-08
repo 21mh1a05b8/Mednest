@@ -15,7 +15,7 @@ const ApplyDoctor = () => {
     experience: "",
     fees: "",
   });
-
+   
   const inputChange = (e) => {
     const { name, value } = e.target;
     return setFormDetails({

@@ -135,7 +135,7 @@ function Register() {
             onChange={inputChange}
           />
           <input type="file" name="profilepic" className="form-input" onChange={onUpload} />
-          <button type="submit" className="form-btn" disabled={loading}>
+          <button type="submit" className="btn form-btn" disabled={loading}>
             {loading ? "Registering..." : "Register"}
           </button>
           <NavLink to="/login" className="form-link">

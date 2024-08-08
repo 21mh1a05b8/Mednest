@@ -1,5 +1,5 @@
 import React from "react";
-import image from "../images/heroimg.jpg";
+import image from "../images/firstimgg.jpg";
 import "../styles/hero.css";
 
 const Hero = () => {
@@ -7,13 +7,12 @@ const Hero = () => {
     <section className="hero">
       <div className="hero-content">
         <h1>
-          Your Health, <br />
-          Our Responsibility
+        Your Wellness,  <br />
+          Our Commitment.
         </h1>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam
-          tenetur doloremque molestias repellat minus asperiores in aperiam
-          dolor, quaerat praesentium.
+        We are dedicated to ensuring your well-being through personalized care and holistic health solutions.
+        We empower individuals to achieve optimal health through innovative solutions and compassionate care.
         </p>
       </div>
       <div className="hero-img">

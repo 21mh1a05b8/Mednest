@@ -12,6 +12,7 @@ axios.defaults.baseURL = process.env.REACT_APP_SERVER_DOMAIN;
 
 const AdminApplications = () => {
   const [applications, setApplications] = useState([]);
+  const baseURL = process.env.REACT_APP_SERVER_DOMAIN.replace('/api', '');
   const dispatch = useDispatch();
   const { loading } = useSelector((state) => state.root);
 
@@ -116,10 +117,7 @@ const AdminApplications = () => {
                         <td>
                           <img
                             className="user-table-pic"
-                            src={
-                              ele?.userId?.pic ||
-                              "https://icon-library.com/images/anonymous-avatar-icon/anonymous-avatar-icon-25.jpg"
-                            }
+                            src={`${baseURL}/${ele.userId.profilepic}`}
                             alt={ele?.userId?.firstname}
                           />
                         </td>
