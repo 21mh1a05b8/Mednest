@@ -15,11 +15,10 @@ const AboutUs = () => {
           </div>
           <div className="hero-content">
             <p>
-            We are dedicated to ensuring your health and well-being.
-            Our mission revolves around providing exceptional healthcare services tailored to meet your needs.
-            Our dedicated team and state-of-the-art facilities offer comprehensive medical care, from preventive measures to advanced treatments.
-            We prioritize your health through personalized attention, cutting-edge technology, and ongoing staff training. 
-            Committed to creating a supportive environment, we aim to foster overall health and wellness through education and community outreach for a healthier, happier future.
+            Welcome to MEDNEST, where healthcare seamlessly integrates with technology to enhance your medical experience. 
+            Our mission is to create a streamlined platform for patients and healthcare providers, facilitating effortless appointment management and access to certified doctors.
+            We emphasize efficiency and trust, enabling secure handling of medical records in one convenient place.
+            Committed to providing a transparent and user friendly experience, we prioritize your health above all.
             </p>
           </div>
         </div>
